@@ -1,6 +1,6 @@
 {
   "name": "npm-react-ts-modal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/vite-react-ts-modal.umd.js",
   "module": "dist/vite-react-ts-modal.es.js",
   "types": "index.d.ts",

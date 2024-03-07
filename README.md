@@ -55,7 +55,7 @@ I chose not to add any css, so that anyone can easily customize their modal, wit
 
 - **modal-backdrop**: The backdrop of the modal.
 - **modal**: The modal itself.
-- **children**: It could be a <p>, a title like <h2>, or more. It's the content of the modal.
+- **children**: It could be a `<p>`, a title like `<h2>`, or more. It's the content of the modal.
 - **modal-close**: The close button inside the modal.
 
 ## API Reference

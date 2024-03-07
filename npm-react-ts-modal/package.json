@@ -1,0 +1,25 @@
+{
+  "name": "npm-react-ts-modal",
+  "version": "1.0.2",
+  "main": "dist/vite-react-ts-modal.umd.js",
+  "module": "dist/vite-react-ts-modal.es.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.5",
+    "vite-plugin-dts": "^3.7.3"
+  }
+}

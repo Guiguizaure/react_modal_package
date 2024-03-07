@@ -17,14 +17,19 @@ You can install `npm-react-ts-modal` using npm:
 npm install npm-react-ts-modal
 ```
 
+## import
+
+```bash
+import Modal from "npm-react-ts-modal";
+```
+
 ## usage
 
 Here's a quick example to get you started:
 
 ```jsx
-Copy code
-import React, { useState } from 'react';
-import Modal from 'npm-react-ts-modal';
+import React, { useState } from "react";
+import Modal from "npm-react-ts-modal";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,6 +46,17 @@ function App() {
 
 export default App;
 ```
+
+## CSS
+
+I chose not to add any css, so that anyone can easily customize their modal, without needing to override already written css.
+
+### customizable CSS elements
+
+- **modal-backdrop**: The backdrop of the modal.
+- **modal**: The modal itself.
+- **children**: It could be a <p>, a title like <h2>, or more. It's the content of the modal.
+- **modal-close**: The close button inside the modal.
 
 ## API Reference
 

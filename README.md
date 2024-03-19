@@ -17,6 +17,12 @@ You can install `npm-react-ts-modal` using npm:
 npm install npm-react-ts-modal
 ```
 
+## Installation
+
+```bash
+npm update npm-react-ts-modal
+```
+
 ## import
 
 ```bash
@@ -50,6 +56,21 @@ export default App;
 ## CSS
 
 I chose not to add any css, so that anyone can easily customize their modal, without needing to override already written css.
+
+Here is the component and its css classes:
+
+```jsx
+return (
+  <div className="modal-backdrop" onClick={onClose}>
+    <div className="modal" onClick={(e) => e.stopPropagation()}>
+      <button className="modal-close" onClick={onClose}>
+        &times;
+      </button>
+      {children}
+    </div>
+  </div>
+);
+```
 
 ### Customizable CSS elements
 
